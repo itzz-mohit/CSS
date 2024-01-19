@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: left;
+    align-items: last baseline;
+    height: 100vh;
+    background-color: black;
+}
+
+.ball{
+    margin-left: 0.2%;
+    width: 50px;
+    height:50px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    animation: bounce 2s infinite;
+
+}
+
+@keyframes bounce {
+    10%,10%,10%,10%,10%,10%{
+        transform: translateY(40);
+    }
+    
+    40%{
+        transform: translateY(-50px);
+    }
+
+    20%{
+        transform: translateY(-20px);
+    }
+
+    40%{
+        transform: translateY(-50px);
+    }
+}
+
+.ball:nth-child(1){
+    background-color: lightblue;
+    animation-delay: 0.1s;
+}
+.ball:nth-child(2){
+    background-color:lightcoral;
+    animation-delay: 0.2s;
+}
+.ball:nth-child(3){
+    background-color: lightblue;
+    animation-delay: 0.3s;
+}
+.ball:nth-child(4){
+    background-color: lightcoral;
+    animation-delay: 0.4s;
+}
+.ball:nth-child(5){
+    background-color: lightblue;
+    animation-delay: 0.5s;
+}
+.ball:nth-child(6){
+    background-color: lightcoral;
+    animation-delay: 0.6s;
+}
+.ball:nth-child(7){
+    background-color: lightblue;
+    animation-delay: 0.7s;
+}
+.ball:nth-child(8){
+    background-color: lightcoral;
+    animation-delay: 0.8s;
+}
+.ball:nth-child(9){
+    background-color: lightblue;
+    animation-delay: 0.9s;
+}
+.ball:nth-child(10){
+    background-color: lightcoral;
+    animation-delay: 1s;
+}
+.ball:nth-child(11){
+    background-color: lightblue;
+    animation-delay: 1s;
+}
+.ball:nth-child(12){
+    background-color:lightcoral;
+    animation-delay: 0.9s;
+}
+.ball:nth-child(13){
+    background-color: lightblue;
+    animation-delay: 0.8s;
+}
+.ball:nth-child(14){
+    background-color: lightcoral;
+    animation-delay: 0.7s;
+}
+.ball:nth-child(15){
+    background-color: lightblue;
+    animation-delay: 0.6s;
+}
+.ball:nth-child(16){
+    background-color: lightcoral;
+    animation-delay: 0.5s;
+}
+.ball:nth-child(17){
+    background-color: lightblue;
+    animation-delay: 0.4s;
+}
+.ball:nth-child(18){
+    background-color: lightcoral;
+    animation-delay: 0.3s;
+}
+.ball:nth-child(19){
+    background-color: lightblue;
+    animation-delay: 0.2s;
+}
+.ball:nth-child(20){
+    background-color: lightcoral;
+    animation-delay: 0.1s;
+}
